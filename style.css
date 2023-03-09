@@ -1,0 +1,44 @@
+img {
+    width: 300px;
+}
+
+li{
+    list-style: square;
+    font-size: 30px;
+    font-weight: 500;
+}
+#메이플글씨체 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 1000px;
+    color:#000000;
+    padding: 60px;
+    border: 5px solid #ffa59e;
+    margin-top: 20;
+    font-family: 'MaplestoryOTFLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'MaplestoryOTFLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-family: 'MaplestoryOTFLight';
+    font-size: 1.2em;
+}
+
+.text1 {
+  color: black;  
+}
+.text1:hover {
+color: red;
+}
